@@ -1,0 +1,31 @@
+{
+  "name": "swagger-jsdoc-test",
+  "version": "1.0.0",
+  "description": "Test documentación endpoints",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatiasOS/swagger-jsdoc-test.git"
+  },
+  "keywords": [
+    "express",
+    "swagger",
+    "openapi"
+  ],
+  "author": "Matías Oveja Smith <matias.ovejasmith@gmail.com>",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/MatiasOS/swagger-jsdoc-test/issues"
+  },
+  "homepage": "https://github.com/MatiasOS/swagger-jsdoc-test#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "swagger-jsdoc": "^7.0.0-rc.6",
+    "swagger-ui-express": "^4.1.6"
+  },
+  "type": "module"
+}
